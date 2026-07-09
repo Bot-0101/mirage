@@ -1,0 +1,45 @@
+{
+  "judge_ckpt": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "detector_nli": "microsoft/deberta-v2-xlarge-mnli",
+  "thresh": 0.5,
+  "positive_rate": 0.946,
+  "answerable_flipped_vs_f1": 20,
+  "signals": {
+    "d_nli": {
+      "auroc": 0.8935392791895034,
+      "ci_low": 0.8071158339185767,
+      "ci_high": 0.9619157500992983,
+      "n": 250
+    },
+    "d_cos": {
+      "auroc": 0.7998671317056968,
+      "ci_low": 0.6888804827206314,
+      "ci_high": 0.8983124583885698,
+      "n": 250
+    },
+    "d_lex": {
+      "auroc": 0.8484471018103306,
+      "ci_low": 0.7461112260028477,
+      "ci_high": 0.9309331396399653,
+      "n": 250
+    },
+    "neg_token_logprob": {
+      "auroc": 0.8385650224215245,
+      "ci_low": 0.752570348654299,
+      "ci_high": 0.9089803656323596,
+      "n": 250
+    },
+    "p_false": {
+      "auroc": 0.7916459059956817,
+      "ci_low": 0.7068578998532131,
+      "ci_high": 0.8604502807236432,
+      "n": 250
+    },
+    "semantic_entropy": {
+      "auroc": 0.7350938382328517,
+      "ci_low": 0.6496745454545454,
+      "ci_high": 0.8148475709369435,
+      "n": 250
+    }
+  }
+}

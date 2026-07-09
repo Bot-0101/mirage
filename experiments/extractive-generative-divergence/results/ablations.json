@@ -1,0 +1,61 @@
+{
+  "templating": {
+    "on": {
+      "auroc": 0.7967157894736843,
+      "ci_low": 0.6977932005270989,
+      "ci_high": 0.8945304777059897,
+      "n": 500
+    },
+    "off": {
+      "auroc": 0.7575578947368421,
+      "ci_low": 0.6333519210719901,
+      "ci_high": 0.8831234220473564,
+      "n": 500
+    }
+  },
+  "grounding_vs_format": {
+    "extractive_span": {
+      "auroc": 0.7967157894736843,
+      "ci_low": 0.6977932005270989,
+      "ci_high": 0.8945304777059897,
+      "n": 500
+    },
+    "openbook_freeform": {
+      "auroc": 0.706778947368421,
+      "ci_low": 0.6342846218940446,
+      "ci_high": 0.7776467894790934,
+      "n": 500
+    }
+  },
+  "ps3_unanswerable": {
+    "note": "degenerate (single-class or empty) \u2014 see abstention rate"
+  },
+  "threshold_robustness": {
+    "f1_0.5": {
+      "auroc": 0.7967157894736843,
+      "ci_low": 0.6977932005270989,
+      "ci_high": 0.8945304777059897,
+      "n": 500
+    },
+    "f1_0.3": {
+      "auroc": 0.7795279683925972,
+      "ci_low": 0.6890857477808138,
+      "ci_high": 0.8613972054838195,
+      "n": 500
+    }
+  },
+  "nli_checkpoint": {
+    "microsoft/deberta-v2-xlarge-mnli": {
+      "auroc": 0.7967157894736843,
+      "ci_low": 0.6977932005270989,
+      "ci_high": 0.8945304777059897,
+      "n": 500
+    },
+    "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli": {
+      "auroc": 0.8304,
+      "ci_low": 0.7300743964240692,
+      "ci_high": 0.9213551514355742,
+      "n": 500
+    }
+  }
+}

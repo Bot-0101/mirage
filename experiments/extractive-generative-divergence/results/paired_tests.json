@@ -1,0 +1,35 @@
+{
+  "label": "independent_judge",
+  "marginal_auroc": {
+    "d_nli": 0.8935392791895034,
+    "semantic_entropy": 0.7350938382328517,
+    "neg_token_logprob": 0.8385650224215245,
+    "d_lex": 0.8484471018103306
+  },
+  "paired": {
+    "d_nli_vs_semantic_entropy": {
+      "diff": 0.1584454409566517,
+      "ci_low": 0.033714619602606466,
+      "ci_high": 0.2790399151917404,
+      "p_value": 0.016,
+      "significant": true,
+      "n": 250
+    },
+    "d_nli_vs_neg_token_logprob": {
+      "diff": 0.054974256767978846,
+      "ci_low": -0.06205739911178197,
+      "ci_high": 0.17635669233289647,
+      "p_value": 0.355,
+      "significant": false,
+      "n": 250
+    },
+    "d_nli_vs_d_lex": {
+      "diff": 0.045092177379172815,
+      "ci_low": -0.006804428849116156,
+      "ci_high": 0.10497466773385021,
+      "p_value": 0.095,
+      "significant": false,
+      "n": 250
+    }
+  }
+}
